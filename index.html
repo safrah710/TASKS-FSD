@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .new{
+    text-align:center;
+    font-size: 50px;
+    color:red;
+    margin-top:60px;
+    }
+    </style>
+</head>
+<body>
+    <div class="mine">
+    </div>
+    <script>
+        let div=document.querySelector(".mine");
+setTimeout(()=>{
+    div.append="<h1>1</h1>"
+    setTimeout(()=>{
+        
+        let p=document.createElement("p");
+        p.innerText="1";
+        div.appendChild(p);
+        setTimeout(()=>{
+            p.style.display="none";
+            let p1=document.createElement("p");
+            p1.innerText="2";
+            div.appendChild(p1);
+            setTimeout(()=>{
+                p1.style.display="none";
+                let p2=document.createElement("p");
+                p2.innerText="3";
+                div.appendChild(p2);
+                setTimeout(()=>{
+                    p2.style.display="none";
+                    let p3=document.createElement("p");
+                    p3.innerText="4";
+                    div.appendChild(p3);
+                    setTimeout(()=>{
+                        p3.style.display="none";
+                        let p4=document.createElement("p");
+                        p4.innerText="5";
+                        div.appendChild(p4);
+                        setTimeout(()=>{
+                            p4.style.display="none";
+                            let p5=document.createElement("p");
+                            p5.innerText="6";
+                            div.appendChild(p5);
+                            setTimeout(()=>{
+                                p5.style.display="none";
+                                let p6=document.createElement("p");
+                                p6.innerText="7";
+                                div.appendChild(p6);
+                                setTimeout(()=>{
+                                    p6.style.display="none";
+                                    let p7=document.createElement("p");
+                                    p7.innerText="8";
+                                    div.appendChild(p7);
+                                     setTimeout(()=>{
+                                        p7.style.display="none";
+                                    let p8=document.createElement("p");
+                                    p8.innerText="9";
+                                    div.appendChild(p8);
+                                    setTimeout(()=>{
+                                        p8.style.display="none";
+                                        let p9=document.createElement("p");
+                                        let p11=document.createElement("p");
+                                        p11.setAttribute("class","new");
+                                        p9.innerText="10";
+                                        p11.innerText="Happy Independence Day";
+                                        div.appendChild(p9);
+                                        div.appendChild(p11);
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
+    </script>
+</body>
+</html>
